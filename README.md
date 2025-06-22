@@ -10,10 +10,10 @@
 - [Modeling](#modeling)
 - [Prediction](#prediction)  
 
-# 📌 Overview
+# Overview 📌
 In today’s evolving brick-and-mortar retail landscape, AI and Augmented Reality are redefining customer engagement and in-store decision-making. This project presents a concrete machine learning use case—customer churn prediction—based on structured behavioral data. By embedding predictive models into interactive retail systems, we demonstrate how real-time churn risk identification can support personalized interventions and improve customer retention strategies directly at the point of sale.
 
-# 📊 Data Preprocessing
+# Data Preprocessing 📊
 **Data Overview**
 
 <img src="https://github.com/user-attachments/assets/a0ddf270-0b37-4787-a76c-86f1037a750d" width="600"/>
@@ -61,12 +61,12 @@ In today’s evolving brick-and-mortar retail landscape, AI and Augmented Realit
 
 <img src="https://github.com/user-attachments/assets/f1593be5-48c2-456c-9271-454a0ddcc07b" width="400"/>
 
-# 🧷 Feature Engineering
+# Feature Engineering 🧷
 
 - Based on EDA, I created two new features: average monthly charges and tenure groups. The tenure was categorized into three bins: short-term (<1 year), medium-term (1-4 years), and long-term (>4 years). 
 - Based on DAG analysis, I created interaction terms for these variable pairs: Contract * tenure and MonthlyCharges * tenure. Correlation analysis revealed that these interaction variables have meaningful explanatory power for predicting churn behavior.
 
-# 🧠 Modeling
+# Modeling 🧠
 
 ## Preliminary Model: LASSO Logistic Regression
 - I implemented logistic regression with L1 regularization (LASSO) to predict customer churn. Features were standardized and hyperparameters optimized via 5-fold cross-validation.
@@ -97,7 +97,7 @@ In today’s evolving brick-and-mortar retail landscape, AI and Augmented Realit
 
 <img src="https://github.com/user-attachments/assets/df75dff2-ff9f-470f-9877-5e1c8fb53c0a" width="500"/>
 
-# 📍 Prediction
+# Prediction 📍
 
 ![image](https://github.com/user-attachments/assets/335fa1db-db32-4860-8bb1-a5a173e4e4e8)
 
