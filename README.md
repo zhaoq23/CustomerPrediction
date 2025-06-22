@@ -59,6 +59,43 @@ In today’s evolving brick-and-mortar retail landscape, AI and Augmented Realit
 
 # Modeling
 
+## Preliminary Model: LASSO Logistic Regression
+- I implemented logistic regression with L1 regularization (LASSO) to predict customer churn. Features were standardized and hyperparameters optimized via 5-fold cross-validation.
+
+<img src="https://github.com/user-attachments/assets/776d01d6-adbe-4982-84cc-f57a7ee3aba4" width="300"/>
+
+<img src="https://github.com/user-attachments/assets/f23dbacc-6c1a-4165-b07f-a2bff16565f9" width="400"/>
+
+## Enhanced Models: Oversampled & Undersampled
+
+<img src="https://github.com/user-attachments/assets/e3d4a18b-49fa-4ef2-af77-a2a6c93e7200" width="300"/>
+
+## Enhanced Models: Decision Trees
+
+<img src="https://github.com/user-attachments/assets/e9e90c45-2d87-48e1-9659-0b96b0d75d32" width="400"/>
+
+<img src="https://github.com/user-attachments/assets/117b08fb-953c-4e0e-8464-d393ae89e66a" width="600"/>
+
+## Enhanced Models: Random Forest
+
+<img src="https://github.com/user-attachments/assets/e6289c1c-7aae-484a-afbf-b0738ee48d71" width="400"/>
+
+<img src="https://github.com/user-attachments/assets/09c4de59-570f-4edc-8ebd-d7c761517c83" width="600"/>
+
+## Enhanced Models: XGBoost
+
+<img src="https://github.com/user-attachments/assets/9b4468f5-ae89-4963-8f6d-4488583ed803" width="400"/>
+
+<img src="https://github.com/user-attachments/assets/df75dff2-ff9f-470f-9877-5e1c8fb53c0a" width="500"/>
+
+# Prediction
+
+![image](https://github.com/user-attachments/assets/335fa1db-db32-4860-8bb1-a5a173e4e4e8)
+
+![1750618748271](https://github.com/user-attachments/assets/23292fa8-150c-4114-8518-0f1b1a59df4e)
+
+
+
 
 
 
