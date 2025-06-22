@@ -3,6 +3,13 @@
 
 <img src="https://github.com/user-attachments/assets/41768d7d-bd7b-4ca7-9687-36749f30002c" width="400"/>
 
+# Table of Contents
+- [Overview](#overview)
+- [Data Preprocessing](#data-preprocessing)
+- [Feature Engineering](#feature-engineering)
+- [Modeling](#modeling)
+- [Prediction](#prediction)  
+
 # 📌 Overview
 In today’s evolving brick-and-mortar retail landscape, AI and Augmented Reality are redefining customer engagement and in-store decision-making. This project presents a concrete machine learning use case—customer churn prediction—based on structured behavioral data. By embedding predictive models into interactive retail systems, we demonstrate how real-time churn risk identification can support personalized interventions and improve customer retention strategies directly at the point of sale.
 
