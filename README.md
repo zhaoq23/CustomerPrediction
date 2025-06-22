@@ -22,7 +22,9 @@ In today’s evolving brick-and-mortar retail landscape, AI and Augmented Realit
 
 <img src="https://github.com/user-attachments/assets/6170baad-6489-4316-9d35-8522453e5708" width="500"/>
 
-- To better capture customer spending behavior, we created a new feature:👉 AvgMonthlyCharge = TotalCharges / Tenure
+- To better capture customer spending behavior, we created a new feature
+
+- 👉 AvgMonthlyCharge = TotalCharges / Tenure
 
 <img src="https://github.com/user-attachments/assets/13fec6ac-cf39-4f7d-8630-3c663e8fbe6d" width="400"/>
 
