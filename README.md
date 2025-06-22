@@ -59,7 +59,7 @@ In today’s evolving brick-and-mortar retail landscape, AI and Augmented Realit
 - Based on EDA, I created two new features: average monthly charges and tenure groups. The tenure was categorized into three bins: short-term (<1 year), medium-term (1-4 years), and long-term (>4 years). 
 - Based on DAG analysis, I created interaction terms for these variable pairs: Contract * tenure and MonthlyCharges * tenure. Correlation analysis revealed that these interaction variables have meaningful explanatory power for predicting churn behavior.
 
-# Modeling
+# 🧠 Modeling
 
 ## Preliminary Model: LASSO Logistic Regression
 - I implemented logistic regression with L1 regularization (LASSO) to predict customer churn. Features were standardized and hyperparameters optimized via 5-fold cross-validation.
@@ -90,7 +90,7 @@ In today’s evolving brick-and-mortar retail landscape, AI and Augmented Realit
 
 <img src="https://github.com/user-attachments/assets/df75dff2-ff9f-470f-9877-5e1c8fb53c0a" width="500"/>
 
-# Prediction
+# 📍 Prediction
 
 ![image](https://github.com/user-attachments/assets/335fa1db-db32-4860-8bb1-a5a173e4e4e8)
 
